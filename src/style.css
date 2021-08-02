@@ -1,0 +1,10 @@
+.QRcode {
+  margin-left: auto;
+  border: 2px solid #fe931d;
+  padding: 0.5rem 0.75rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fe931d;
+}
