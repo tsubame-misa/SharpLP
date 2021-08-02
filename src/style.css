@@ -8,3 +8,42 @@
   align-items: center;
   color: #fe931d;
 }
+
+.DonutsImg {
+  width: 45%;
+  min-width: 500px;
+}
+
+.QRImg {
+  width: 75px;
+}
+
+@media (max-width: 500px) {
+  .QRcode {
+    margin-left: auto;
+    border: 1.5px solid #fe931d;
+    padding: 0.25rem 0.4rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fe931d;
+  }
+
+  .QRImg {
+    width: 50px;
+  }
+
+  .DonutsWarp {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fe931d;
+  }
+
+  .DonutsImg {
+    width: 45%;
+    min-width: 300px;
+  }
+}

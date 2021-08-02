@@ -14,13 +14,16 @@ function Header() {
             alignItems: "center",
           }}
         >
-          <h1 className="title is-2" style={{ color: "#FE931D" }}>
+          <h1
+            className="title is-2 is-size-3-mobile"
+            style={{ color: "#FE931D", margin: "0px" }}
+          >
             Donuts
           </h1>
           <div className="QRcode">
-            <p className="pr-3"> 使ってみる</p>
+            <p className="is-5 is-size-7-mobile"> 使ってみる</p>
 
-            <img src={QRImg} style={{ width: "75px" }} />
+            <img src={QRImg} className="QRImg" />
           </div>
         </div>
       </div>
@@ -35,23 +38,24 @@ function App() {
       <main>
         <section>
           <div>
-            <figure
-              className="image"
-              style={{
-                backgroundColor: "#FE931D",
-                display: "flex",
-                justifyContent: "center",
-              }}
-            >
-              <img src={ogpImg} style={{ width: "45%" }} alt="イメージ画像" />
-            </figure>
+            <div className="DonutsWarp">
+              <div
+                style={{
+                  backgroundColor: "#FE931D",
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+              >
+                <img src={ogpImg} className="DonutsImg" alt="イメージ画像" />
+              </div>
+            </div>
             <div
               className="section py-5"
               style={{ backgroundColor: "#FFB547" }}
             >
               <div className="container">
                 <div className="has-text-centered">
-                  <div className="subtitle is-2 has-text-white">
+                  <div className="subtitle is-2 is-size-4-mobile has-text-white">
                     充実したオタ活のための
                     <br />
                     DVDラベル管理アプリ
@@ -72,11 +76,11 @@ function App() {
           </div>
           <div className="section">
             <div className="container">
-              <div class="columns has-text-centered">
-                <div class="column  p-5">
+              <div className="columns has-text-centered">
+                <div className="column  p-5">
                   <a href="https://drive.google.com/file/d/1gg6wFxnbR9hMoFFK5MFQwC944o6xMZ09/view?usp=sharing">
                     <button
-                      class="button is-danger is-large has-text-white"
+                      className="button is-danger is-large has-text-white"
                       style={{ backgroundColor: "#FFB547" }}
                     >
                       企画書
@@ -86,10 +90,10 @@ function App() {
                     アプリ作成に関する企画書です。作成前の事前調査や目的等が書かれています。
                   </p>
                 </div>
-                <div class="column  p-5">
+                <div className="column  p-5">
                   <a href="https://github.com/tsubame-misa/labelMaker">
                     <button
-                      class="button is-danger is-large has-text-white"
+                      className="button is-danger is-large has-text-white"
                       style={{ backgroundColor: "#FE931D" }}
                     >
                       Github
@@ -97,10 +101,10 @@ function App() {
                   </a>
                   <p className="pt-3">本アプリのプログラムです。</p>
                 </div>
-                <div class="column  p-5">
+                <div className="column  p-5">
                   <a href="https://drive.google.com/file/d/1ye9MJJX_1_rvjLpSZPmDmmOtXZRM_lFq/view?usp=sharing">
                     <button
-                      class="button is-danger is-large has-text-white"
+                      className="button is-danger is-large has-text-white"
                       style={{ backgroundColor: "#FFB547" }}
                     >
                       ポスター
@@ -108,10 +112,10 @@ function App() {
                   </a>
                   <p className="pt-3">授業内の発表会で用いたポスターです。</p>
                 </div>
-                <div class="column p-5">
+                <div className="column p-5">
                   <a href="">
                     <button
-                      class="button is-danger is-large has-text-white"
+                      className="button is-danger is-large has-text-white"
                       style={{ backgroundColor: "#FE931D" }}
                     >
                       使い方
@@ -126,10 +130,18 @@ function App() {
           </div>
         </section>
       </main>
-      <footer className="footer">
+      <footer className="footer" style={{ backgroundColor: "#fef4e6" }}>
         <div className="content has-text-centered">
           <p>チーム&ensp;ｺﾜｸﾅｲﾖｰ</p>
-          <p>渡邉みさと 沼部恵 阿部沙亜弥 中島綾乃</p>
+          <p>
+            {/*<a
+              href="https://twitter.com/Tsubame_misa"
+              style={{ color: "#FE931D" }}
+            >*/}
+            渡邉みさと
+            {/*</a>*/}
+            沼部恵 阿部沙亜弥 中島綾乃
+          </p>
         </div>
       </footer>
     </div>
