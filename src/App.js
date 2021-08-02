@@ -1,5 +1,5 @@
 import ogpImg from "./images/OGP.png";
-import iconImg from "./images/icon.png";
+import QRImg from "./images/Donuts.png";
 import "./style.css";
 
 function Header() {
@@ -20,7 +20,7 @@ function Header() {
           <div className="QRcode">
             <p className="pr-3"> 使ってみる</p>
 
-            <img src={iconImg} style={{ width: "75px" }} />
+            <img src={QRImg} style={{ width: "75px" }} />
           </div>
         </div>
       </div>
