@@ -74,52 +74,52 @@ function App() {
             <div className="container">
               <div class="columns has-text-centered">
                 <div class="column  p-5">
-                  <div>
+                  <a href="https://drive.google.com/file/d/1gg6wFxnbR9hMoFFK5MFQwC944o6xMZ09/view?usp=sharing">
                     <button
                       class="button is-danger is-large has-text-white"
                       style={{ backgroundColor: "#FFB547" }}
                     >
                       企画書
                     </button>
-                    <p className="pt-3">
-                      アプリ作成に関する企画書です。作成前の事前調査や目的等が書かれています。
-                    </p>
-                  </div>
+                  </a>
+                  <p className="pt-3">
+                    アプリ作成に関する企画書です。作成前の事前調査や目的等が書かれています。
+                  </p>
                 </div>
                 <div class="column  p-5">
-                  <div>
+                  <a href="https://github.com/tsubame-misa/labelMaker">
                     <button
                       class="button is-danger is-large has-text-white"
                       style={{ backgroundColor: "#FE931D" }}
                     >
                       Github
                     </button>
-                    <p className="pt-3">本アプリのプログラムです。</p>
-                  </div>
+                  </a>
+                  <p className="pt-3">本アプリのプログラムです。</p>
                 </div>
                 <div class="column  p-5">
-                  <div>
+                  <a href="https://drive.google.com/file/d/1ye9MJJX_1_rvjLpSZPmDmmOtXZRM_lFq/view?usp=sharing">
                     <button
                       class="button is-danger is-large has-text-white"
                       style={{ backgroundColor: "#FFB547" }}
                     >
                       ポスター
                     </button>
-                    <p className="pt-3">授業内の発表会で用いたポスターです。</p>
-                  </div>
+                  </a>
+                  <p className="pt-3">授業内の発表会で用いたポスターです。</p>
                 </div>
                 <div class="column p-5">
-                  <div>
+                  <a href="">
                     <button
                       class="button is-danger is-large has-text-white"
                       style={{ backgroundColor: "#FE931D" }}
                     >
                       使い方
                     </button>
-                    <p className="pt-3">
-                      アプリの使用方法です。操作方法がわからない際にご覧ください。
-                    </p>
-                  </div>
+                  </a>
+                  <p className="pt-3">
+                    アプリの使用方法です。操作方法がわからない際にご覧ください。
+                  </p>
                 </div>
               </div>
             </div>
