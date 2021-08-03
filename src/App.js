@@ -128,7 +128,11 @@ function App() {
                   <p className="pt-3">授業内の発表会で用いたポスターです。</p>
                 </div>
                 <div className="column p-5">
-                  <a href="">
+                  <a
+                    href="https://www.youtube.com/watch?v=fuLEFqnCk8Q"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <button
                       className="button is-danger  has-text-white "
                       style={{ backgroundColor: "#fe931d" }}
