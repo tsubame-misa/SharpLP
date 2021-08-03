@@ -24,6 +24,7 @@
   border-width: 1px;
   color: #ffffff;
   padding: 1.75rem;
+  width: 110px;
 }
 .button:hover {
   border-color: brown;
@@ -41,9 +42,7 @@
 @media (max-width: 500px) {
   .QRcode {
     margin-left: auto;
-
     padding: 0.25rem 0.5rem;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,6 +61,7 @@
     justify-content: center;
     align-items: center;
     background: #fe931d;
+    align-items: "flex-start";
   }
 
   .DonutsImg {

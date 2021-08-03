@@ -38,6 +38,7 @@ function App() {
                   backgroundColor: "#FE931D",
                   display: "flex",
                   justifyContent: "center",
+                  alignItems: "flex-start",
                 }}
               >
                 <img src={ogpImg} className="DonutsImg" alt="イメージ画像" />
@@ -136,7 +137,7 @@ function App() {
                     </button>
                   </a>
                   <p className="pt-3">
-                    アプリの使用方法です。操作方法がわからない際にご覧ください。
+                    アプリの紹介動画です。操作方法を動画でわかりやすく説明しています。
                   </p>
                 </div>
               </div>
@@ -152,9 +153,9 @@ function App() {
               href="https://twitter.com/Tsubame_misa"
               style={{ color: "#FE931D" }}
             >*/}
-            渡邉みさと
+            渡邉みさと&emsp;
             {/*</a>*/}
-            沼部恵 阿部沙亜弥 中島綾乃
+            沼部恵&emsp;阿部沙亜弥&emsp;中島綾乃
           </p>
         </div>
       </footer>
