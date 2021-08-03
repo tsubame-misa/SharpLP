@@ -5,26 +5,20 @@ import "./style.css";
 function Header() {
   return (
     <header className="hero has-background-white is-bold is-small">
-      <div className="hero-body">
-        <div
-          className="container"
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
+      <div className="hero-body px-4">
+        <div className="container">
           <h1
-            className="title is-2 is-size-3-mobile"
+            className="title is-2 is-size-3-mobile "
             style={{ color: "#FE931D", margin: "0px" }}
           >
             Donuts
+            <span
+              className="title is-3 is-size-4-mobile pl-1"
+              style={{ color: "#FFB547" }}
+            >
+              ~label maker~
+            </span>
           </h1>
-          <div className="QRcode">
-            <p className="is-5 is-size-7-mobile"> 使ってみる</p>
-
-            <img src={QRImg} className="QRImg" />
-          </div>
         </div>
       </div>
     </header>
@@ -71,6 +65,26 @@ function App() {
                     </ul>
                   </div>
                 </div>
+                <div className="QRcode">
+                  <a
+                    href="https://donuts-label-maker.netlify.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button
+                      className="button is-danger is-outlined"
+                      style={{
+                        color: "white",
+                        borderColor: "white",
+                        backgroundColor: "#FFB547",
+                      }}
+                    >
+                      使ってみる
+                    </button>
+                  </a>
+
+                  <img src={QRImg} className="QRImg" />
+                </div>
               </div>
             </div>
           </div>
@@ -80,8 +94,8 @@ function App() {
                 <div className="column  p-5">
                   <a href="https://drive.google.com/file/d/1gg6wFxnbR9hMoFFK5MFQwC944o6xMZ09/view?usp=sharing">
                     <button
-                      className="button is-danger is-large has-text-white"
-                      style={{ backgroundColor: "#FFB547" }}
+                      className="button is-danger  has-text-white "
+                      style={{ backgroundColor: "#fe931d" }}
                     >
                       企画書
                     </button>
@@ -93,8 +107,8 @@ function App() {
                 <div className="column  p-5">
                   <a href="https://github.com/tsubame-misa/labelMaker">
                     <button
-                      className="button is-danger is-large has-text-white"
-                      style={{ backgroundColor: "#FE931D" }}
+                      className="button is-danger has-text-white "
+                      style={{ backgroundColor: "#fe931d" }}
                     >
                       Github
                     </button>
@@ -104,8 +118,8 @@ function App() {
                 <div className="column  p-5">
                   <a href="https://drive.google.com/file/d/1ye9MJJX_1_rvjLpSZPmDmmOtXZRM_lFq/view?usp=sharing">
                     <button
-                      className="button is-danger is-large has-text-white"
-                      style={{ backgroundColor: "#FFB547" }}
+                      className="button is-danger has-text-white "
+                      style={{ backgroundColor: "#fe931d" }}
                     >
                       ポスター
                     </button>
@@ -115,8 +129,8 @@ function App() {
                 <div className="column p-5">
                   <a href="">
                     <button
-                      className="button is-danger is-large has-text-white"
-                      style={{ backgroundColor: "#FE931D" }}
+                      className="button is-danger  has-text-white "
+                      style={{ backgroundColor: "#fe931d" }}
                     >
                       使い方
                     </button>
@@ -130,8 +144,8 @@ function App() {
           </div>
         </section>
       </main>
-      <footer className="footer" style={{ backgroundColor: "#fef4e6" }}>
-        <div className="content has-text-centered">
+      <footer className="footer py-6" style={{ backgroundColor: "#fef4e6" }}>
+        <div className="content" style={{ textAlign: "right" }}>
           <p>チーム&ensp;ｺﾜｸﾅｲﾖｰ</p>
           <p>
             {/*<a

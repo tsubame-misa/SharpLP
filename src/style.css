@@ -1,12 +1,10 @@
 .QRcode {
   margin-left: auto;
-  border: 2px solid #fe931d;
   padding: 0.5rem 0.75rem;
-  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fe931d;
+  color: #ffffff;
 }
 
 .DonutsImg {
@@ -15,23 +13,47 @@
 }
 
 .QRImg {
-  width: 75px;
+  width: 125px;
+  background-color: #ffffff;
+  margin: 10px 10px 10px 20px;
+}
+
+.button {
+  background-color: #ffb546;
+  border-color: #ffffff;
+  border-width: 1px;
+  color: #ffffff;
+  padding: 1.75rem;
+}
+.button:hover {
+  border-color: brown;
+  color: #000000;
+}
+
+.donutsColor {
+  background-color: #fe931d;
+}
+
+.button-border-color {
+  border-color: blue;
 }
 
 @media (max-width: 500px) {
   .QRcode {
     margin-left: auto;
-    border: 1.5px solid #fe931d;
-    padding: 0.25rem 0.4rem;
-    border-radius: 5px;
+
+    padding: 0.25rem 0.5rem;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fe931d;
+    color: #ffffff;
   }
 
   .QRImg {
-    width: 50px;
+    width: 75px;
+    background-color: #ffffff;
+    margin: 10px 10px 10px 20px;
   }
 
   .DonutsWarp {
@@ -45,5 +67,14 @@
   .DonutsImg {
     width: 45%;
     min-width: 300px;
+  }
+
+  .button {
+    background-color: #ffb546;
+    border-color: #ffffff;
+    border-width: 1px;
+    color: #ffffff;
+    padding: 1.25rem;
+    width: 95px;
   }
 }
