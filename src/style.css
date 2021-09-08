@@ -1,0 +1,15 @@
+.header {
+  background-color: "#000000";
+  text-align: "center";
+  height: 450px;
+}
+
+.about {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  border-color: black;
+}
