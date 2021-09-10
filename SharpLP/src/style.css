@@ -1,0 +1,20 @@
+img {
+  max-width: 80%;
+}
+
+.titleImage {
+  padding-top: 130px;
+  padding-bottom: 0px;
+  background-color: black;
+  text-align: center;
+}
+
+.about {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  border-color: black;
+}
