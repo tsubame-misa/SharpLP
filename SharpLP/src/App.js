@@ -1,13 +1,15 @@
 // import ogpImg from "./images/OGP.png";
 import logo from "./images/logo2.png";
+import inputImage from "./images/input.png";
+import searchImage from "./images/search.png";
+import browseImage from "./images/browse.png";
+import birthdayImage from "./images/birthday.png";
 import "./style.css";
 
 function Header() {
   return (
-    <div className="display-flex">
-      <div className="titleImage">
-        <img src={logo}></img>
-      </div>
+    <div className="title-block">
+      <img src={logo} className="title-image"></img>
     </div>
   );
 }
@@ -32,18 +34,60 @@ function App() {
             コミュニケーション、もっと簡単にとれるんじゃない？
           </p>
         </div>
+        <div className="product-link">
+          <a href="" class="btn btn-border">
+            今すぐ始める
+          </a>
+        </div>
+        <div className="introduce">
+          <div className="intro-group">
+            <img src={inputImage} className="intro-image" />
+            <div className="intro-about">
+              <h2>#入力</h2>
+              <p>人と会話して情報を増やす</p>
+            </div>
+          </div>
+          <div className="intro-group">
+            <div className="intro-about">
+              <h2>#検索</h2>
+              <p>人を簡単に見つける</p>
+            </div>
+            <img src={searchImage} className="intro-image" />
+          </div>
+
+          <div className="intro-group">
+            <img src={browseImage} className="intro-image" />
+            <div className="intro-about">
+              <h2>#閲覧</h2>
+              <p>話したことを思い出す</p>
+            </div>
+          </div>
+
+          <div className="intro-group intro-last">
+            <div className="intro-about">
+              <h2>#誕生日</h2>
+              <p>誕生日が近い人が分かる</p>
+            </div>
+            <img src={birthdayImage} className="intro-image" />
+          </div>
+        </div>
+        <div className="links">
+          <a href="" class="btn btn-border link-btn">
+            github
+          </a>
+          <a href="" class="btn btn-border link-btn">
+            企画発表会スライド
+          </a>
+          <a href="" class="btn btn-border link-btn">
+            成果発表会スライド
+          </a>
+        </div>
       </main>
-      <footer className="footer py-6" style={{ backgroundColor: "#FFFFFF" }}>
+      <footer className="footer" style={{ backgroundColor: "#FFFFFF" }}>
         <div className="content" style={{ textAlign: "right" }}>
-          <p>チーム&ensp;べべベランド</p>
-          <p>
-            {/*<a
-              href="https://twitter.com/Tsubame_misa"
-              style={{ color: "#FE931D" }}
-            >*/}
-            渡邉みさと&emsp;
-            {/*</a>*/}
-            沼部恵&emsp;阿部沙亜弥&emsp;中島綾乃
+          <p className="footer-pala">チーム&ensp;べべベランド</p>
+          <p className="footer-pala">
+            渡邉みさと&emsp; 沼部恵&emsp;阿部沙亜弥&emsp;中島綾乃
           </p>
         </div>
       </footer>
