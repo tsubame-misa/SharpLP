@@ -35,7 +35,10 @@ function App() {
           </p>
         </div>
         <div className="product-link">
-          <a href="" class="btn btn-border">
+          <a
+            href="https://sharp-profile.netlify.app/home"
+            class="btn btn-border"
+          >
             今すぐ始める
           </a>
         </div>
@@ -72,10 +75,16 @@ function App() {
           </div>
         </div>
         <div className="links">
-          <a href="" class="btn btn-border link-btn">
+          <a
+            href="https://github.com/tsubame-misa/Sharp"
+            class="btn btn-border link-btn"
+          >
             github
           </a>
-          <a href="" class="btn btn-border link-btn">
+          <a
+            href="https://docs.google.com/presentation/d/1HqgpSp_UdSFQbwAbKUHqp1XuG3-jfngD/edit?usp=sharing&ouid=114173514687445978777&rtpof=true&sd=true"
+            class="btn btn-border link-btn"
+          >
             企画発表会スライド
           </a>
           <a href="" class="btn btn-border link-btn">
